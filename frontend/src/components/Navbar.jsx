@@ -31,7 +31,7 @@ const Navbar = () => {
           <p
             className="border px-2 py-1 rounded-full border-primary text-gray-600 
                  cursor-pointer hover:bg-primary hover:text-white  transition"
-            onClick={() => window.open("http://localhost:5174/", "_blank")}
+            onClick={() => window.open(import.meta.env.VITE_ADMIN_URL, "_blank")}
           >
             Admin <span className="text-lg">&rarr;</span>
           </p>
